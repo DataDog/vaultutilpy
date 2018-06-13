@@ -1,0 +1,13 @@
+build
+dist
+*.egg-info
+*.pyc
+./tags
+*~
+*.DS_Store
+.vscode/*
+*.swp
+*.swo
+*.swn
+./TAGS
+.tags
