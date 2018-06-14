@@ -11,7 +11,10 @@ setuptools.setup(
   author_email = "daniel.piet@datadoghq.com",
   url = 'https://github.com/datadog/vaultutilpy',
   platforms = 'any',
-  packages = setuptools.find_packages(),
+  packages = ["vaultutilpy"],
+  install_requires=["hvac"],
+  setup_requires=["pytest-runner"],
+  tests_require=["pytest", "mock"],
   zip_safe = True,
   verbose = False,
 )

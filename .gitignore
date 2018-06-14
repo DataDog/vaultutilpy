@@ -11,3 +11,6 @@ dist
 *.swn
 ./TAGS
 .tags
+.cache
+.eggs
+.pytest_cache
